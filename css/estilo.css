@@ -1,0 +1,123 @@
+body{
+	font-family: 'Montserrat', sans-serif;
+	letter-spacing: 4px;
+
+}
+
+
+
+footer{
+	background-image: url("foo.png");
+	color: #ffffff;
+}
+
+section aside div div{
+	
+	margin-top:21%;
+	margin-bottom:21%; 
+	
+}
+
+footer div div img {
+	
+	margin-left:18%; 
+}
+
+#acerca div h4{
+	margin-left: 10%;
+	margin-right:10%;
+	text-align: justify;
+}
+
+
+/*--Large Desktop--*/
+
+@media (min-width:1200px){
+	
+	#logo img{
+		padding:20px 10px;
+		}
+	
+	nav#botonera{
+		margin-top:4%;
+		width:50%;
+		}
+		
+	nav#botonera ul{
+		width:100%;
+		}
+		
+	nav#botonera ul li{
+		width:18%;
+		text-align:center;
+		background:#ddd;
+		margin:0 1%;
+		}
+	}
+	
+/*--Medium Desktop--*/
+	
+@media (max-width:1199px) and (min-width:992px){
+	
+	#logo img{
+		padding:20px 10px;
+		}
+		
+	nav#botonera{
+		margin-top:3%;
+		width:60%;
+		}
+		
+	nav#botonera ul{
+		width:100%;
+		}
+		
+	nav#botonera ul li{
+		width:18%;
+		text-align:center;
+		background:#ddd;
+		margin:0 1%;
+		}
+
+	}
+	
+/*--Tablets--*/
+	
+@media (max-width:991px) and (min-width:768px){
+	
+	#logo img{
+		padding:20px 240px;
+		}
+	
+	nav#botonera{
+		margin:2% 0;
+		width:100%;
+		}
+		
+	nav#botonera ul{
+		width:100%;
+		}
+		
+	nav#botonera ul li{
+		width:18%;
+		text-align:center;
+		background:#ddd;
+		margin:0 1%;
+		}
+
+	}
+	
+/*--Phones--*/
+	
+@media (max-width:767px){
+	
+	#logo{
+		background:white;
+		}
+		
+	#logo img{
+		padding:20px 30px;
+		}
+		
+	 	
+	}
