@@ -1,0 +1,197 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SmartNotes</title>
+    <link href="img/S-02.png" rel="icon">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300&display=swap" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/estilo.css" rel="stylesheet">
+    <script src="js/jquery-2.2.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</head>
+
+<body>
+	<div class="container-fluid">
+		<header class="row">
+        <div id="logo" class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-center">
+       		<img src="img/logo.jpg" class="img-responsive" >
+       </div>
+            
+       <div id="botoneraMovil" class="navbar-header navbar-inverse">
+       		<button type="button" class="navbar-toggle pull-left" data-toggle="collapse" data-target="#botonera">
+        		<span class="icon-bar"></span>
+            	<span class="icon-bar"></span>
+            	<span class="icon-bar"></span>
+        	</button>
+       </div>
+        
+        <nav id="botonera" class="col-lg-9 col-md-9 col-sm-12 col-xs-12 collapse navbar-collapse pull-right">
+        	<ul class="nav navbar-nav">
+            	<li><a href="#myCarousel">Inicio</a></li>
+                <li><a href="#acerca">Acerca</a></li>
+                <li><a href="#funciones">Funciones</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+        
+	</header>
+
+		<div class="row carousel slide" id="myCarousel" data-ride="carousel">
+			<ol class="carousel-indicators">
+				<li data-target="#myCarousel" data-slide-to="0" class="activa"></li>
+				<li data-target="#myCarousel" data-slide-to="1" class="activa"></li>
+				<li data-target="#myCarousel" data-slide-to="2" class="activa"></li>
+			</ol>
+
+			<div class="carousel-inner" role="listbox">
+				<div class="item active">
+            		<div><img class="img-responsive" src="img/image1.png"></div>
+            	</div>
+
+            	<div class="item">
+            		<div><img class="img-responsive" src="img/image2.png"></div>
+            	</div>
+
+            	<div class="item">
+            		<div><img class="img-responsive" src="img/image3.png"></div>
+            	</div>
+            </div> 
+        </div>
+
+
+        <div class="row" id="acerca">
+            <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+            	<br><br><br><br>
+            	<h2>Smart Notes</h2>
+            	<h4> Está pensado en ser una alternativa de estudio eficiente y versátil, enfocado en las necesidades de los estudiantes del siglo xxi.
+				El proyecto está pensado para ser implementado inicialmente en una aplicación móvil, a modo de un bloc de notas en la que se podrán tomar notas, una vez tomada la nota el usuario la clasificara en el tema que corresponda, posteriormente podrá solicitarle a la app, un test con preguntas, obtenidas de la información que escribió en la nota. otra de las características que se piensan implementar para el sistema, es un calendario, en el que se puedan programar los test para un dia y una hora determinada.
+				</h4>
+            	<br><br><br><br><br>
+            </div>
+        </div>
+
+        <section class="row" id="funciones">
+            <aside class="col-lg-6 col-md-6 col-sm-12 col-xs-12" >
+
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                	<div>
+                		<img src="img/img1.png" class="" width="80%">
+                		<h2>Administra todas tus notas</h2>
+            			<p>Ten un excelente control de tus notas<br>dividiendolas por materias y capítulos</p>
+            		</div>
+                </div>
+
+
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                	<img class="" src="img/f2.png" width="100%">
+                </div>
+
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                	<div >
+                		<img src="img/img3.png" class="" width="80%">
+                		<h2>Realiza test automatizados</h2>
+            			<p>Prepárate para tus exámenes realizando pruebas automatizadas<br>de los apuntes guardados en tus materias</p>
+            		</div>
+                </div>
+            </aside>
+
+            <aside class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                	<img class="" src="img/f1.png" width="100%">
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 text-center">
+                	<div>
+                		<img src="img/img2.png" class="" width="80%">
+                		<h2>Captura texto con tu cámara</h2>
+            			<p>Pasa imagenes tomadas por tu cámara a texto<br>con nuestro editor de texto</p>
+            		</div>
+                </div>
+                <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+                	<img class="" src="img/f3.png" width="100%">
+                </div>
+            </aside>
+        </section>
+
+        <div class="row" id="nosotros">
+            <br>
+            <br>
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+
+            	<img class="" src="img/Ian.png " width="250px" height="250px">
+            	<h3>Ducloux Rueda Ian Alejandro</h3>
+            	<p>Líder de Proyecto, Ingeniero de Software</p>
+            </div>
+
+			<div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+            	<img class="" src="img/Ximena.png" width="250px" height="250px">
+            	<h3>Cruz Aguirre Andrea Ximena</h3>
+            	<p>Desarrollador, Analista de Sistemas</p>
+            </div>
+
+            <div class="col-lg-4 col-md-4 col-sm-4 col-xs-12 text-center">
+                <img class="" src="img/Gerardo.png" width="250px" height="250px">
+                <h3>Silva Sánchez Gerardo</h3>
+                <p>Desarrollador, Diseñador Grafico y UX</p>
+            </div>
+        </div>
+
+        <div class="row" >
+            
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
+                <img class="" src="img/Arturo.png" width="250px" height="250px">
+                <h3>Legorreta Mena Arturo Alejandro</h3>
+                <p>Desarrollador, Ingeniero de Calidad</p>
+            </div>
+
+            <div class="col-lg-6 col-md-6 col-sm-6 col-xs-12 text-center">
+                <img class="" src="img/Fernando.png" width="250px" height="250px">
+                <h3>Gonzalez Robles Fernando Adrian</h3>
+                <p>Desarrollador, Líder de Documentación</p>
+                <br>
+            	<br>
+            </div> 
+
+        </div>
+
+        <footer class="row" id="contacto">
+        	<br><br>
+            <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
+            	<form role="form">
+        		<div class="form-group"> 
+            		<input type="text" class="form-control" placeholder="Usuario" required>
+           		</div>
+
+            	<div class="form-group"> 
+            		<input type="email" class="form-control" placeholder="Email" required>
+            	</div>
+            	<div class="form-group"> 
+            		<input type="email" class="form-control" placeholder="Comentarios"required>
+            	</div>
+            	<button type="submit" class="btn btn-info">Enviar</button>
+            	
+       
+        		</form>
+            </div>
+            <div class="col-lg-5 col-md-5 col-sm-12 col-xs-12 text-center">
+            	<h3>FIXWARE</h3>
+            	<p>Una empresa dedicada al desarrollo de software y proyectos a medida e integraciones
+            	</p> 
+            	<p>Fixware® Todos los derechos reservados 2020 y Aviso de privacidad
+            	</p>
+            	<br>
+            	<br>
+            </div>
+            <div class="col-lg-3 col-md-3 col-sm-12 col-xs-12 text-center" id="redes">
+            	<img  src="img/Contacto.png" width="300px" height="auto" >
+            </div>
+
+        </footer>
+    </div>
+
+</body>
+</html>
